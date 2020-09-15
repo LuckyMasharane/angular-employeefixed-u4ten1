@@ -1,0 +1,9 @@
+<div class="container">
+  <h2 style="text-align: center">Company Projects</h2>
+  <div *ngFor="let projects of projects">
+    <div class="card" style="margin-bottom: 10px">
+      <h5 style="margin-bottom: 10px">{{projects.projectName}}</h5>
+      <p>{{projects.projectDetails}}</p>
+    </div>
+  </div>
+</div>
