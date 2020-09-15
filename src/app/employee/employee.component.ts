@@ -12,7 +12,7 @@ import { EmployeesService } from '../employees.service';
 })
 export class EmployeeComponent implements OnInit {
 
-  constructor(private _employeeService: EmployeesService,public dialog: MatDialog) {}
+  constructor(private _employeeService: EmployeesService) {}
 
   ngOnInit() {
   }
